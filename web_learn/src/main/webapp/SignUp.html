@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Registration Form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+<center>
+    <font color="blue" size="6">New Registration</font><br><br>
+        <form method="get" action="servlet">
+            <table align="center">
+                <tr>
+                    <td>
+                        First Name
+                    </td>
+                    <td>
+                        <input type="text" name="fname"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Last Name
+                    </td>
+                    <td>
+                        <input type="text" name="lname"/>
+                    </td>
+                </tr>
+
+                                <tr>
+                    <td>
+                        User Name
+                    </td>
+                    <td>
+                        <input type="text" name="username"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Password
+                    </td>
+                    <td>
+                        <input type="password" name="password"/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Gender
+                    </td>
+                    <td>
+                        <input type="radio" name="gender" value="Male"/>Male
+                        <input type="radio" name="gender" value="Female"/>FeMale
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Batch
+                    </td>
+                    <td>
+                        <select name="batch">
+                            <option>B1</option>
+                            <option>B2</option>
+                            <option>B3</option>
+                            <option>B4</option>
+                            <option>B5</option>
+                            <option>B6</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center">
+                        <input type="Submit" value="submit"/><!-- comment -->
+                    </td>
+                    
+                </tr>
+                
+
+
+            </table>
+        </form>
+    </body>
+</html>
