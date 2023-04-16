@@ -1,0 +1,1 @@
+This is a simple dynamic web project of java using html and tomcat apache server to show how you can take data from a htm page and add it to your my sql database using servlet.
